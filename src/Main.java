@@ -47,6 +47,7 @@ public class Main {
     // Create a speed() method and add a parameter
     public void speed(int maxSpeed) {
         System.out.println("Max speed is: " + maxSpeed);
+
     }
 }
 
