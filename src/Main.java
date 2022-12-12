@@ -13,5 +13,8 @@ public class Main {
         Etudiant vianney = new Etudiant();
         System.out.println("Je m'appelle " +  " " + vianney.Nom + " " + vianney.Prenom + " " +  "j'ai " + " " + vianney.Age + " " +  "et j'a pour matricule " + " " +  vianney.Matricule + " " +  "pour pouvoir me joindre veuillez passer par mon numero" + " " +  vianney.Numero + " " +  "ou par mon adresse mail " + " " +  vianney.AdresseMail);
 
+        Enseignant ulrich = new Enseignant();
+        System.out.println("Je m'appelle " +  " " + ulrich.Nom + " " + ulrich.Prenom + " " +  "j'enseigne " + " " + ulrich.Matiere + " " +  "et j'ai un poste de " + " " +  ulrich.Etat);
+
     }
 }
